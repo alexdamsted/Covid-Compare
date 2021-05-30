@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import {} from "reactstrap";
 
-import Side_Nav from "./components/Side_Nav.js";
+import SideNav from "./components/SideNav.js";
 import About from "./components/About.js";
 import Help from "./components/Help.js";
 import Compare from "./components/Compare.js";
@@ -94,13 +94,10 @@ class App extends Component {
 
     return (
       <>
-        <head>
-          <meta content="width=device-width, initial-scale=1" name="viewport" />
-        </head>
-        <div class="container-fluid">
-          <div class="row content">
+        <div className="container-fluid">
+          <div className="row content">
             <Router>
-              <Side_Nav />
+              <SideNav />
               <Switch>
                 <Route path="/about" component={About} />
                 <Route path="/help" component={Help} />

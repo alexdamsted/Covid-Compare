@@ -14,7 +14,11 @@ const AddedCountry = (props) => {
     <tbody className="table-borderless added-content">
       <tr>
         <td>
-          <NewsLink Link={props.added.addedCountry} toggle={toggle} />
+          <NewsLink
+            key={props.added.addedCountry}
+            Link={props.added.addedCountry}
+            toggle={toggle}
+          />
         </td>
         <td>{props.added.activeTotal}</td>
         <td>{props.added.confirmedTotal}</td>
@@ -36,7 +40,11 @@ const AddedCountry = (props) => {
       </tr>
       <tr>
         <td colSpan="6">
-          <News isOpen={isOpen} countryOpened={props.added.addedCountry} />
+          <News
+            key={props.added.addedCountry}
+            isOpen={isOpen}
+            countryOpened={props.added.addedCountry}
+          />
         </td>
       </tr>
     </tbody>

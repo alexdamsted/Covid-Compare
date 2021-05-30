@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Form, Input } from "reactstrap";
 
 class Find extends Component {
   constructor(props) {
@@ -8,14 +7,14 @@ class Find extends Component {
 
   render() {
     return (
-      <div class="input-group mb-3">
-        <div class="input-group-prepend">
-          <div class="input-group-text transparent">
-            <i class="fa fa-search"></i>
+      <div className="input-group mb-3">
+        <div className="input-group-prepend">
+          <div className="input-group-text transparent">
+            <i className="fa fa-search"></i>
           </div>
         </div>
         <input
-          class="form-control left-border-none"
+          className="form-control left-border-none"
           type="search"
           placeholder={this.props.placeholder}
           onChange={this.props.handleChange}

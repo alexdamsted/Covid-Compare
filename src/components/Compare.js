@@ -6,12 +6,12 @@ import Added from "./Added.js";
 export class Compare extends Component {
   render() {
     return (
-      <div class="col-sm-9 main-content">
+      <div className="col-sm-9 main-content">
         <Find
           placeholder="Search for a country"
           handleChange={this.props.handleChange}
         />
-        <div class="row mt-5 mb-5">
+        <div className="row mt-5 mb-5">
           <Carousel_Component
             // Sending the carousel child ref to parent (App.js)
             ref={(ref) => (this.childCarousel = ref)}
@@ -20,8 +20,9 @@ export class Compare extends Component {
             loading={this.props.loading}
           />
         </div>
-        <div class="row">
+        <div className="row">
           <Added
+            key={this.props.added}
             added={this.props.added}
             removeCountry={this.props.removeCountry}
           />

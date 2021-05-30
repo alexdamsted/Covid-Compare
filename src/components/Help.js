@@ -2,13 +2,9 @@ import React, { Component } from "react";
 import {} from "reactstrap";
 
 class Help extends Component {
-  constructor() {
-    super();
-  }
-
   render() {
     return (
-      <div class="col-sm-9 main-content">
+      <div className="col-sm-9 main-content">
         <h5>Help</h5>
         <br />
         <h3>How to use this app</h3>

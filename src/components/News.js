@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Collapse, Container } from "reactstrap";
+import { Collapse } from "reactstrap";
 
 class News extends Component {
   constructor(props) {
@@ -76,7 +76,7 @@ class News extends Component {
             <i>{n.description}</i>
           </p>
           <br />
-          <a href={n.url} target="_blank">
+          <a href={n.url} target="_blank" rel="noreferrer">
             {n.url}
           </a>
           <br />

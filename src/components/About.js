@@ -2,18 +2,14 @@ import React, { Component } from "react";
 import {} from "reactstrap";
 
 class About extends Component {
-  constructor() {
-    super();
-  }
-
   render() {
     return (
-      <div class="col-sm-9 main-content">
+      <div className="col-sm-9 main-content">
         <h5>About</h5>
         <br />
         <p>
           <b>Covid Compare</b> is a project made by Alex from{" "}
-          <a href="#">ajdaprogramming.nz</a>
+          <a href="www.ajda.nz">ajda.nz</a>
         </p>
         <p>
           It's built with React js and Reactstrap/Bootstrap. It also makes use

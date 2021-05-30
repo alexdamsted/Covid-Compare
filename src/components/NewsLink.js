@@ -1,5 +1,3 @@
-import React, { useState } from "react";
-
 const NewsLink = (props) => {
   return (
     <div>

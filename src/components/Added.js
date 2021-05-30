@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Table, Form, Input, Button } from "reactstrap";
+import { Table } from "reactstrap";
 import AddedCountry from "./AddedCountry.js";
 
 class Added extends Component {
@@ -9,7 +9,7 @@ class Added extends Component {
 
   render() {
     return (
-      <div class="table-responsive">
+      <div className="table-responsive">
         <Table>
           <thead>
             <tr>
