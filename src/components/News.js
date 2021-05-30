@@ -19,7 +19,7 @@ class News extends Component {
 
     try {
       const countryOpened = this.props.countryOpened;
-      const apiKey = "d958f67599fe4abba4433734c5613631";
+      const apiKey = process.env.REACT_APP_API_KEY;
       const resp = await fetch(
         `https://newsapi.org/v2/everything?qInTitle=${countryOpened}&q=${countryOpened}+virus+Covid&from=${year}-${month}-${day}&sortBy=popularity&apiKey=${apiKey}`
       );
