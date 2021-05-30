@@ -38,6 +38,11 @@ class About extends Component {
           2. This app is only partially responsive. It was not created to be
           used on mobile.
         </p>
+        <p>
+          3. * May (2021) UPDATE * The free version of Newsapi.org no longer
+          allows production usage. The News functionality no longer works in a
+          production environment. Sorry.
+        </p>
       </div>
     );
   }

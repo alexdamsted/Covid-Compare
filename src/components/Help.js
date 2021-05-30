@@ -17,7 +17,8 @@ class Help extends Component {
         </p>
         <p>
           3. Click on a country name in the table to open up relevant news
-          stories.{" "}
+          stories (<b>*not functional anymore due to free version changes</b>,
+          see the About page).{" "}
         </p>
       </div>
     );
