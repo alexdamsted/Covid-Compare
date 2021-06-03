@@ -9,7 +9,9 @@ class About extends Component {
         <br />
         <p>
           <b>Covid Compare</b> is a project made by Alex from{" "}
-          <a href="www.ajda.nz">ajda.nz</a>
+          <a href="https://www.ajda.nz/" target="_blank" rel="noopener">
+            ajda.nz
+          </a>
         </p>
         <p>
           It's built with React js and Reactstrap/Bootstrap. It also makes use
